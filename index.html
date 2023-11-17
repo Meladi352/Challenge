@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>It-challenge</title>
+</head>
+<body>
+<div class="container">
+    <div class="availability">
+      <div class="weeks-wrapper">
+        <!-- Dropdown list with weeks -->
+        <select name= "select-category" class="weeks">
+            <option value="1">Week 1 ()</option>
+            <option value="2">Week 2 ()</option>
+            <option value="3">Week 3 ()</option>
+            <option value="4">Week 4 ()</option>
+            <option value="5">Week 5 ()</option>
+            <option value="6">Week 6 ()</option>
+            <option value="7">Week 7 ()</option>
+        </select>
+      </div>
+    </div>
+    <div class="title">
+        <h1>MY AVAILABILITY FOR THE NEXT 7 WEEKS</h1>
+    </div>
+    <!-- Sliders for each week -->
+    <div class="sliders">
+    <span class="week">Week 1</span>
+    <div class="multi-slider" id="slider-mon"></div>
+    <span class="week">Week 2</span>
+    <div class="multi-slider" id="slider-tue"></div>
+    <span class="week">Week 3</span>
+    <div class="multi-slider" id="slider-wed"></div>
+    <span class="week">Week 4</span>
+    <div class="multi-slider" id="slider-thu"></div>
+    <span class="week">Week 5</span>
+    <div class="multi-slider" id="slider-fri"></div>
+    <span class="week">Week 6</span>
+    <div class="multi-slider" id="slider-sat"></div>
+    <span class="week">Week 7</span>
+    <div class="multi-slider" id="slider-sun"></div>
+</div>
+</div>
+<!-- Include jQuery and noUiSlider library -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
